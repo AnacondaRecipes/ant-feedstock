@@ -1,5 +1,5 @@
 anaconda_config_version: 1
 upstream_sources:
   - webpage:
-      url: https://archive.apache.org/dist/ant/source/apache-ant-{}-src.tar.gz
+      url: https://downloads.apache.org/ant/source/
       regex: apache-ant-(.*)-src\.tar\.gz
