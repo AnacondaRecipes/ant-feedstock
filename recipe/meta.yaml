@@ -1,5 +1,5 @@
-{% set version = '1.10.8' %}
-{% set sha256 = 'd9bdc6da6180b05aef8c60b06c637fc36d3741cbce109aada9586ceef2664272' %}
+{% set version = '1.10.17' %}
+{% set sha256 = '0acd8eb8c3ea9505bcd422baad746aad62c2f8f691cc872e2046e283e85217c0' %}
 
 package:
   name: ant
@@ -11,13 +11,11 @@ source:
 
 build:
   number: 0
-  # no openjdk available for those platforms
-  skip: True  # [ppc64le or s390x]
 requirements:
   build:
-    - openjdk
+    - openjdk >=8
   run:
-    - openjdk
+    - openjdk >=8
 
 test:
   commands:
@@ -25,8 +23,8 @@ test:
     - ant -h
 
 about:
-  home: http://ant.apache.org/
-  license: Apache 2.0
+  home: https://ant.apache.org/
+  license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
   summary: 'Java build tool'
@@ -35,5 +33,5 @@ about:
     drive processes described in build files as targets and extension points
     dependent upon each other. The main known usage of Ant is the build of
     Java applications.
-  dev_url: https://git-wip-us.apache.org/repos/asf?p=ant.git;a=summary
-  doc_url: http://ant.apache.org/manual/index.html
+  dev_url: https://github.com/apache/ant
+  doc_url: https://ant.apache.org/manual/index.html
