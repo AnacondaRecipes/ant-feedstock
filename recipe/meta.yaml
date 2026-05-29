@@ -1,5 +1,5 @@
-{% set version = '1.10.8' %}
-{% set sha256 = 'd9bdc6da6180b05aef8c60b06c637fc36d3741cbce109aada9586ceef2664272' %}
+{% set version = '1.10.17' %}
+{% set sha256 = '0acd8eb8c3ea9505bcd422baad746aad62c2f8f691cc872e2046e283e85217c0' %}
 
 package:
   name: ant
@@ -11,8 +11,6 @@ source:
 
 build:
   number: 0
-  # no openjdk available for those platforms
-  skip: True  # [ppc64le or s390x]
 requirements:
   build:
     - openjdk
