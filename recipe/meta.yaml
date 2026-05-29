@@ -23,8 +23,8 @@ test:
     - ant -h
 
 about:
-  home: http://ant.apache.org/
-  license: Apache 2.0
+  home: https://ant.apache.org/
+  license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
   summary: 'Java build tool'
@@ -33,5 +33,5 @@ about:
     drive processes described in build files as targets and extension points
     dependent upon each other. The main known usage of Ant is the build of
     Java applications.
-  dev_url: https://git-wip-us.apache.org/repos/asf?p=ant.git;a=summary
-  doc_url: http://ant.apache.org/manual/index.html
+  dev_url: https://github.com/apache/ant
+  doc_url: https://ant.apache.org/manual/index.html
